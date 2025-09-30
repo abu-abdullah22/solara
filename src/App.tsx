@@ -1,15 +1,15 @@
+import { BrowserRouter } from 'react-router-dom'
 import './App.css'
-import { Button } from './components/ui/button'
+import Layout from './Layout/Layout'
+
 
 function App() {
 
 
   return (
-    <>
-      <div>
-        <Button />
-      </div>
-    </>
+    <BrowserRouter>
+     <Layout />
+    </BrowserRouter>
   )
 }
 
