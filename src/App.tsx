@@ -1,6 +1,7 @@
 import { BrowserRouter } from 'react-router-dom'
 import './App.css'
 import Layout from './Layout/Layout'
+import { ThemeProvider } from './context/theme-provider'
 
 
 function App() {
@@ -8,7 +9,9 @@ function App() {
 
   return (
     <BrowserRouter>
-     <Layout />
+      <ThemeProvider>
+        <Layout />
+      </ThemeProvider>
     </BrowserRouter>
   )
 }
