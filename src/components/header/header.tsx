@@ -14,7 +14,7 @@ const Header = () => {
                 className="container mx-auto flex h-16 items-center justify-between px-4">
 
                 <Link to={'/'}>
-                    <img src={'solara3.png'} alt="Solara" className="h-25" />
+                    <img src={'solara3.png'} alt="Solara" className="h-25" /> 
                 </Link>
 
            
